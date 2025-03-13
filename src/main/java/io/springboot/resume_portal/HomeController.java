@@ -36,9 +36,9 @@ public class   HomeController {
         userProfileOptional.orElseThrow(() -> new RuntimeException("Not found: " + userId));
 
         model.addAttribute("userId", userId);
-        UserProfile userProfile = userProfileOptional .get();
+        UserProfile userProfile = userProfileOptional.get();
         model.addAttribute("userProfile", userProfile);
-        return "profile-templates/3/index";
+        return "profile-templates/" + userProfile.getId() + "/index";
     }
 }
 
