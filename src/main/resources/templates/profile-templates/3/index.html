@@ -20,14 +20,14 @@
         <div id="hd">
             <div class="yui-gc">
                 <div class="yui-u first">
-                    <h1><span th:text="${userProfile.firstName}">Joe</span> <span th:text="${userProfile.lastName}">Bloggs</span></h1>
-                    <h2 th:text="${userProfile.designation}">Web Designer, Director</h2>
+                    <h1><span>Joe</span> <span>Bloggs</span></h1>
+                    <h2>Web Designer, Director</h2>
                 </div>
 
                 <div class="yui-u">
                     <div class="contact-info">
-                        <h3><a th:text="${userProfile.email}" href="${userProfile.email}">name@yourdomain.com</a></h3>
-                        <h3 th:text="${userProfile.phone}">(313) - 867-5309</h3>
+                        <h3><a href="name@yourdomain.com">name@yourdomain.com</a></h3>
+                        <h3>(313) - 867-5309</h3>
                     </div><!--// .contact-info -->
                 </div>
             </div><!--// .yui-gc -->
@@ -42,7 +42,7 @@
                             <h2>Profile</h2>
                         </div>
                         <div class="yui-u">
-                            <p class="enlarge" th:text="${userProfile.summary}">
+                            <p class="enlarge">
                                 Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change.
                             </p>
                         </div>
@@ -56,12 +56,12 @@
 
                             <div class="talent">
                                 <h2>Web Design</h2>
-                                <p>Assertively exploit wireless initiatives rather than synergistic core competencies.	</p>
+                                <p>Assertively exploit wireless initiatives rather than synergistic core competencies. </p>
                             </div>
 
                             <div class="talent">
                                 <h2>Interface Design</h2>
-                                <p>Credibly streamline mission-critical value with multifunctional functionalities.	 </p>
+                                <p>Credibly streamline mission-critical value with multifunctional functionalities. </p>
                             </div>
 
                             <div class="talent">
@@ -125,7 +125,6 @@
                                 <p>Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials. </p>
                             </div>
 
-
                             <div class="job last">
                                 <h2>International Business Machines (IBM)</h2>
                                 <h3>Lead Web Designer</h3>
@@ -135,7 +134,6 @@
 
                         </div><!--// .yui-u -->
                     </div><!--// .yui-gf -->
-
 
                     <div class="yui-gf last">
                         <div class="yui-u first">
@@ -147,7 +145,6 @@
                         </div>
                     </div><!--// .yui-gf -->
 
-
                 </div><!--// .yui-b -->
             </div><!--// yui-main -->
         </div><!--// bd -->
@@ -158,9 +155,8 @@
 
     </div><!-- // inner -->
 
-
 </div><!--// doc -->
 
-
 </body>
+
 </html>
